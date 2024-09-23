@@ -2,7 +2,7 @@ backend:
    name: github # or gitlab
    repo: alexjbuck/njc
    branch: main
-   base_url: sveltia-cms-auth.abuck.workers.dev 
+   base_url: https://sveltia-cms-auth.abuck.workers.dev
 media_folder: public/img
 public_folder: img
 collections:
