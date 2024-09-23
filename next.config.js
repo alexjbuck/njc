@@ -1,10 +1,9 @@
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
     output: 'export',
     trailingSlash: true,
-    distDir: 'dist',
-}    
-
-module.exports = {
     webpack: (cfg) => {
         cfg.module.rules.push(
             {
@@ -15,4 +14,6 @@ module.exports = {
         )
         return cfg
     }
-}
+}    
+
+module.exports = nextConfig 
